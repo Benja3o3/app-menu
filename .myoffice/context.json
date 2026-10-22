@@ -1,0 +1,67 @@
+{
+  "projectId": "proj-1792694468494",
+  "vision": "Aplicaicon para registrar y guardar menus y recetas",
+  "features": [
+    {
+      "id": "feat-1",
+      "title": "Configuración inicial de entorno",
+      "description": "Estructura base del repositorio y dependencias principales",
+      "status": "completed"
+    },
+    {
+      "id": "feat-2",
+      "title": "Desarrollo de funcionalidades principales",
+      "description": "Implementación de componentes y lógica del proyecto",
+      "status": "in_progress"
+    },
+    {
+      "id": "feat-1792694603190-gg6o",
+      "title": "CRUD de recetas",
+      "description": "agregar editar y eliminar recetas",
+      "status": "planned"
+    }
+  ],
+  "designSystem": {
+    "uiFramework": "Tailwind CSS",
+    "styleGuidelines": "Diseño moderno con esquinas redondeadas (rounded-xl/2xl), soporte para tema oscuro/claro, componentes desacoplados y accesibilidad.",
+    "colors": [
+      {
+        "id": "col-1",
+        "name": "Primario",
+        "hex": "#6366f1",
+        "usage": "Botones principales, acentos de marca y enlaces activos"
+      },
+      {
+        "id": "col-2",
+        "name": "Fondo Oscuro",
+        "hex": "#090d16",
+        "usage": "Fondo principal de la aplicación"
+      },
+      {
+        "id": "col-3",
+        "name": "Superficie / Cards",
+        "hex": "#1e293b",
+        "usage": "Tarjetas, barras de navegación y modales"
+      },
+      {
+        "id": "col-4",
+        "name": "Texto Principal",
+        "hex": "#f8fafc",
+        "usage": "Títulos y textos de alto contraste"
+      },
+      {
+        "id": "col-5",
+        "name": "Acento / Éxito",
+        "hex": "#10b981",
+        "usage": "Notificaciones de éxito, badges e indicadores"
+      }
+    ]
+  },
+  "techStack": {
+    "framework": "React + Vite",
+    "language": "TypeScript",
+    "rules": "Tipado estricto sin \"any\". Componentes modulares reutilizables. Nombres semánticos en funciones y variables. Manejo robusto de errores."
+  },
+  "assets": [],
+  "updatedAt": 1792694632193
+}
